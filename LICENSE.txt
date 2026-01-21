@@ -1,0 +1,46 @@
+TÜRKGENCİ DEV – DISCORD BOT LİSANSI
+
+Copyright (c) 2026 TürkGenci Dev
+Tüm hakları saklıdır.
+
+Bu lisans, TürkGenci Dev tarafından geliştirilen tüm Discord botları
+(bundan sonra "Bot" olarak anılacaktır) için geçerlidir.
+
+━━━━━━━━━━━━━━━━━━━━
+İZİN VERİLENLER
+━━━━━━━━━━━━━━━━━━━━
+- Botu Discord sunucularında kullanmak
+- Botu çalıştırmak ve yapılandırmak
+- Botu kişisel veya ticari sunucularda kullanmak
+
+━━━━━━━━━━━━━━━━━━━━
+YASAKLANANLAR
+━━━━━━━━━━━━━━━━━━━━
+- Botun kaynak kodunu paylaşmak
+- Botu satmak, kiralamak veya yeniden dağıtmak
+- Botu kopyalamak, klonlamak veya tersine mühendislik yapmak
+- Botu TürkGenci Dev adı dışında yayınlamak
+
+━━━━━━━━━━━━━━━━━━━━
+MÜLKİYET HAKKI
+━━━━━━━━━━━━━━━━━━━━
+Botun tüm hakları TürkGenci Dev’e aittir.
+Bu lisans, mülkiyet devri anlamına gelmez.
+
+━━━━━━━━━━━━━━━━━━━━
+SORUMLULUK REDDİ
+━━━━━━━━━━━━━━━━━━━━
+Bot "OLDUĞU GİBİ" sunulmaktadır.
+TürkGenci Dev, botun kullanımından doğabilecek
+doğrudan veya dolaylı hiçbir zarardan sorumlu tutulamaz.
+
+━━━━━━━━━━━━━━━━━━━━
+FESİH
+━━━━━━━━━━━━━━━━━━━━
+Bu lisans şartlarının ihlali durumunda lisans otomatik olarak iptal edilir.
+
+━━━━━━━━━━━━━━━━━━━━
+İLETİŞİM
+━━━━━━━━━━━━━━━━━━━━
+Discord: turk_genci
+Geliştirici: https://discord.gg/muRQVnEg5b
