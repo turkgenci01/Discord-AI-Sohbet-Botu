@@ -26,7 +26,8 @@ export async function execute(message) {
   console.log(`Message in guild ${guildId}, channel ${channelId}. Settings:`, settings);
 
   if (!settings || !settings.ai_channel_id) {
-    if (message.mentions.has(message.client.user)) {
+    // Sadece direct mentions'a yanıt ver, @everyone/@here yoksay
+    if (message.mentions.has(message.client.user) && !message.mentions.everyone) {
       await message.reply('Henüz bir AI sohbet kanalı ayarlanmamış. Bir yönetici `/setup` komutuyla kanal ayarlayabilir. 🛠️');
     }
     return;
@@ -37,7 +38,8 @@ export async function execute(message) {
   console.log('Comparing channelId:', channelId, 'to stored ai_channel_id:', settings.ai_channel_id, '->', storedChannelIdString);
 
   const isAIChannel = channelId === storedChannelIdString;
-  const isMentioned = message.mentions.has(message.client.user);
+  // Sadece direct mentions'a yanıt ver, @everyone/@here yoksay
+  const isMentioned = message.mentions.has(message.client.user) && !message.mentions.everyone;
 
   if (!isAIChannel && isMentioned) {
     const aiChannel = message.guild.channels.cache.get(settings.ai_channel_id.toString());
